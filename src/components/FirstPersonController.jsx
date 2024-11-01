@@ -47,10 +47,17 @@ function FirstPersonController() {
                     moveDirection.add(forward.negate());
                     break;
                 case 'KeyA':
+<<<<<<< HEAD
                     moveDirection.add(right);
                     break;
                 case 'KeyD':
                     moveDirection.add(right.negate());
+=======
+                    moveDirection.add(right.negate());
+                    break;
+                case 'KeyD':
+                    moveDirection.add(right);
+>>>>>>> 9d6150048ca2194f1ddd18c39dd0d4d20f16d4fb
                     break;
                 case 'PageUp':
                     camera.position.y += moveSpeed;
